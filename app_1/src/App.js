@@ -1,8 +1,15 @@
-import './App.css';
+import React from 'react';
+import Form from './/Components/Form/Form';
+import PhonebookFilter from './Components/Phonebook/PhonebookFilter';
+import Contacts from './Components/Contacts/Contacts';
 
-function App() {
-  return <div className="App">TEST</div>;
+
+export default function App() {
+  return (
+    <> 
+      <Form />
+      <PhonebookFilter />
+      <Contacts />
+    </>
+  );
 }
-
-export default App;
-
